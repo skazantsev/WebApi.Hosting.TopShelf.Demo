@@ -1,0 +1,16 @@
+[Bb]in/
+[Oo]bj/
+TestResults/
+TestResult.xml
+AppPackages/
+*.cache
+*.suo
+*.user
+*.userprefs
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+_UpgradeReport.*
+*.nupkg
+**/packages/*
+!**/packages/build/
