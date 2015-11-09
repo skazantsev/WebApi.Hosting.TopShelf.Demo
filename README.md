@@ -5,6 +5,7 @@ An example of self-hosting an ASP.NET Web API application as a console applicati
 ### How To: hosting Web API as a console application
 
 **Step 1: Create a new console project e.g. RestApi**
+![new project](https://raw.github.com/skazantsev/WebApi.Hosting.TopShelf.Demo/master/images/new_project.png)
 
 **Step 2: Add Microsoft.AspNet.WebApi.OwinSelfHost NuGet package**
 > Install-Package Microsoft.AspNet.WebApi.OwinSelfHost
@@ -56,6 +57,7 @@ public static void Main(string[] args)
 ```
 
 **Step 6: Build & run the program and go to http://localhost:8085/api/Demo**
+![test api](https://raw.github.com/skazantsev/WebApi.Hosting.TopShelf.Demo/master/images/test_api.png)
 
 *You are awesome!*
 
@@ -119,5 +121,6 @@ For more information see [Topshelf Configuration](http://docs.topshelf-project.c
 For more information see [Topshelf Command-Line Reference](http://docs.topshelf-project.com/en/latest/overview/commandline.html).
 
 **Step 7: Ensure the service has appeared in 'Services' and working - http://localhost:8085/api/Demo**
+![service](https://raw.github.com/skazantsev/WebApi.Hosting.TopShelf.Demo/master/images/rest_service.png)
 
 *You are awesome!*
